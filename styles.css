@@ -2,4 +2,35 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+li a {
+    font-size: 18px;
+    color: #e5e7eb;
 }
