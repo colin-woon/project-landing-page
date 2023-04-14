@@ -19,7 +19,7 @@ ul {
 .hero {
     background-color: #1f2937;
     display: flex;
-    flex: 1 1 auto;
+    flex: auto;
     justify-content: space-between;
     padding: 10px 200px;
 }
@@ -89,6 +89,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .content-text {
@@ -115,3 +116,31 @@ button {
 }
 
 /* #3 content styling */
+
+/* #4 quote styling */
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 120px 300px;
+}
+
+.quote-text {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* #4 quote styling */
