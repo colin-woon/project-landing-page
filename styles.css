@@ -180,7 +180,18 @@ button {
 
 /* #5 action styling */
 
-
-
 /* #6 footer styling */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    background-color: #1f2937;
+}
+
+.footer-text {
+    color: #f9faf8;
+}
+
 /* #6 footer styling */
