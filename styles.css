@@ -76,3 +76,42 @@ button {
 }
 
 /* #2 hero styling */
+
+/* #3 content styling */
+.image-box {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.content-box {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.box p {
+    text-align: center;
+}
+
+/* #3 content styling */
