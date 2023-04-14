@@ -5,8 +5,10 @@ body {
     display: flex;
     padding: 0px;
     margin: 0px;
+    flex-direction: column;
 }
 
+/* #1 header styling */
 ul {
     list-style: none;
     display: flex;
@@ -22,7 +24,7 @@ a {
     display: flex;
     flex: 1 1 auto;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 10px 200px;
 }
 
 .header-logo {
@@ -30,7 +32,53 @@ a {
     color: #f9faf8;
 }
 
-li a {
+li a,
+.hero-secondarytext,
+button {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+/* #1 header styling */
+
+/* #2 hero styling */
+.hero {
+    flex: 1 1 auto;
+    display: flex;
+    background-color: #1f2937;
+    padding: 50px 200px 76px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+
+.hero-maintext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.image-container {
+    background-color: grey;
+    width: 800px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container p {
+    color: white;
+}
+
+/* #2 hero styling */
